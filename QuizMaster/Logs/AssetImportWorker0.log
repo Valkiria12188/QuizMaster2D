@@ -1,0 +1,300 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1526; Version 2009; 64bit' Language: 'pl' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Mateusz/Desktop/UnityProjects/Quiz_Master_2D/QuizMaster2D/QuizMaster
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59665
+Successfully changed project path to: C:/Users/Mateusz/Desktop/UnityProjects/Quiz_Master_2D/QuizMaster2D/QuizMaster
+C:/Users/Mateusz/Desktop/UnityProjects/Quiz_Master_2D/QuizMaster2D/QuizMaster
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mateusz/Desktop/UnityProjects/Quiz_Master_2D/QuizMaster2D/QuizMaster/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001994 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1742ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 2.808800 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.480800 ms  DeleteObjects: 0.061500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008989 seconds 
+  Import took 0.014060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(09db2cf35bc0658468e72296de35e023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(09db2cf35bc0658468e72296de35e023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc46226f7d5ccff19f533da39450582') in 0.007186 seconds 
+  Import took 0.010990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.395251 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(fb28f34f6d849cc498094ff08466d68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(fb28f34f6d849cc498094ff08466d68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6101d7833f241bbd1f3edf46a24f5fc7') in 0.003285 seconds 
+  Import took 0.007080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.533482 seconds.
+  path: Assets/Assets/background — kopia.png
+  artifactKey: Guid(0eccfd149aba44045a45985320077e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/background — kopia.png using Guid(0eccfd149aba44045a45985320077e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0200889aecbf9cd23eddb7c2c8eb9547') in 0.175171 seconds 
+  Import took 0.178619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Assets/neon_round_orange.png
+  artifactKey: Guid(7dbb1e2557daf684fbe75c01bd12f9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/neon_round_orange.png using Guid(7dbb1e2557daf684fbe75c01bd12f9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1758d373200097fb21696566dc308fe8') in 0.017625 seconds 
+  Import took 0.020761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Assets/neon_square_orange.png
+  artifactKey: Guid(53f941fb3b2fdb742915f15eb0134ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/neon_square_orange.png using Guid(53f941fb3b2fdb742915f15eb0134ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36519ea07b2d5d2bf218f13b2d74cc') in 0.013096 seconds 
+  Import took 0.018118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/Quiz Master - Gameplay Overview 3.png
+  artifactKey: Guid(41895bd02adc5da4e8be9a95495d62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Quiz Master - Gameplay Overview 3.png using Guid(41895bd02adc5da4e8be9a95495d62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0fe66e86cb6d2d3134d427581d1a0e') in 0.011073 seconds 
+  Import took 0.014245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Assets/neon_round_orange — kopia.png
+  artifactKey: Guid(15cd391175af06644bce321e5ca1a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/neon_round_orange — kopia.png using Guid(15cd391175af06644bce321e5ca1a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83eef4313b2b26b25954373aee4eaf9') in 0.049771 seconds 
+  Import took 0.052764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/background.png
+  artifactKey: Guid(5dc9620024ce38f408d720e45dda4d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/background.png using Guid(5dc9620024ce38f408d720e45dda4d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febf188567456fad014679ed5149857f') in 0.014214 seconds 
+  Import took 0.017156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/Quiz Master - Gameplay Overview 1.png
+  artifactKey: Guid(905b04bf2aa1fd64e921ea4cca689bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Quiz Master - Gameplay Overview 1.png using Guid(905b04bf2aa1fd64e921ea4cca689bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6f4f788ffcd956768bd8bce9074499') in 0.012449 seconds 
+  Import took 0.015336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets/Quiz Master - Gameplay Overview 2.png
+  artifactKey: Guid(e04210110df0834428d21603a7cfcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Quiz Master - Gameplay Overview 2.png using Guid(e04210110df0834428d21603a7cfcdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea60eacc7bf40cf871784d8aa29a1f4') in 0.011669 seconds 
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Assets/neon_square_blue.png
+  artifactKey: Guid(eefc6548fbe1be743aa1158adea56de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/neon_square_blue.png using Guid(eefc6548fbe1be743aa1158adea56de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b029e2fa47690f37ac91ae3c8b0561a') in 0.012926 seconds 
+  Import took 0.015961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.756401 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(92edd63e0bb970e449dfc512467295fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(92edd63e0bb970e449dfc512467295fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb7040114f3c2f64e319ae3783d3e5b') in 0.006026 seconds 
+  Import took 0.019115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2631.672404 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(5d7935baf343c3b4c87da9a6ea15b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(5d7935baf343c3b4c87da9a6ea15b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e225f9fd254b6777d530a6da78d129a') in 0.005778 seconds 
+  Import took 0.009376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.625218 seconds.
+  path: Assets/Fonts/Prisma.otf
+  artifactKey: Guid(98b35055eaa1fde44af4051f1dce7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Prisma.otf using Guid(98b35055eaa1fde44af4051f1dce7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df8ac98dae4f7cf148737b66459c1a1') in 0.076073 seconds 
+  Import took 0.079536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Fonts/Prisma.ttf
+  artifactKey: Guid(e67e6f30ae3e6be47bbed298a71486c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Prisma.ttf using Guid(e67e6f30ae3e6be47bbed298a71486c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a707e4991397c8bc474336829feaae2') in 0.010390 seconds 
+  Import took 0.013165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.712109 seconds.
+  path: Assets/Fonts/Prisma SDF.asset
+  artifactKey: Guid(9abdb3bce42183148bade5ad290c5bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Prisma SDF.asset using Guid(9abdb3bce42183148bade5ad290c5bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'b0ab3ba11386de4d07abe603c29a8c40') in 0.069871 seconds 
+  Import took 0.073625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.957739 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.050409 seconds 
+  Import took 0.053554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.043973 seconds 
+  Import took 0.047006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1028.262385 seconds.
+  path: Assets/Assets/neon_square_blue.png
+  artifactKey: Guid(eefc6548fbe1be743aa1158adea56de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/neon_square_blue.png using Guid(eefc6548fbe1be743aa1158adea56de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0a8af9a20898cae778cb67fb48b472') in 0.018903 seconds 
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1485.584825 seconds.
+  path: Assets/Assets/Button.prefab
+  artifactKey: Guid(7b44be301afcd0d40bc40ab54665a39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Button.prefab using Guid(7b44be301afcd0d40bc40ab54665a39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698990253f3683eb22b6f2d8d01f5d18') in 0.091292 seconds 
+  Import took 0.095149 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
