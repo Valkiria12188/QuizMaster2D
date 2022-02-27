@@ -7,13 +7,14 @@ using UnityEngine.UI;
 public class Quiz : MonoBehaviour
 {
     [Header("Questions")]
-    [SerializeField] QuestionSO question;
     [SerializeField] TextMeshProUGUI questionText;
+    [SerializeField] List<QuestionSO> questions=new List<QuestionSO>();
+    QuestionSO currentQuestion;
 
     [Header("Answers")]
     [SerializeField] GameObject[] answerButtons;
     int correctAnswerIndex;
-    bool hasAnsweredEarly;
+    bool hasAnsweredEarly=true;
 
     [Header("Button Colors")]
     [SerializeField] Sprite defaultAnswerSprite;
@@ -23,12 +24,23 @@ public class Quiz : MonoBehaviour
     [SerializeField] Image tiemrImage;
     Timer timer;
 
+    [Header("Scoring")]
+    [SerializeField] TextMeshProUGUI scoreText;
+    ScoreKeeper scoreKeeper;
+
+    [Header("ProgresBar")]
+    [SerializeField] Slider progresBar;
+
+    public bool isComplete;
 
 
-    void Start()
+
+    void Awake()
     {
         timer = FindObjectOfType<Timer>();
-        DisplayQuestion();
+        scoreKeeper= FindObjectOfType<ScoreKeeper>();
+        progresBar.maxValue = questions.Count;
+        progresBar.value = 0;
     }
 
     void Update()
@@ -36,6 +48,12 @@ public class Quiz : MonoBehaviour
         tiemrImage.fillAmount = timer.fillFraction;
         if(timer.loadNextQuestion)
         {
+            if (progresBar.value == progresBar.maxValue)
+            {
+                isComplete = true;
+                return;
+            }
+
             hasAnsweredEarly = false;
             GetNextQuestion();
             timer.loadNextQuestion = false;
@@ -53,22 +71,25 @@ public class Quiz : MonoBehaviour
         DisplayAnswer(index);
         SetButtonsState(false);
         timer.CancelTimer();
+        scoreText.text = "Score: " + scoreKeeper.CalculateScore()+"%";
+ 
     }
 
     void DisplayAnswer(int index)
     {
         Image buttonImage;
 
-        if (index == question.GetCorrectAnswerIndex())
+        if (index == currentQuestion.GetCorrectAnswerIndex())
         {
             questionText.text = "Poprawna OdpowiedŸ!";
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            scoreKeeper.incerementCorrectAnswers();
         }
         else
         {
-            correctAnswerIndex = question.GetCorrectAnswerIndex();
-            string correctAnswer = question.GetAnswer(correctAnswerIndex);
+            correctAnswerIndex = currentQuestion.GetCorrectAnswerIndex();
+            string correctAnswer = currentQuestion.GetAnswer(correctAnswerIndex);
             questionText.text = "Wybacz, poprawna odpowiedŸ to;\n" + correctAnswer;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
@@ -77,20 +98,34 @@ public class Quiz : MonoBehaviour
 
     void GetNextQuestion()
     {
-        SetButtonsState(true);
-        SetDefaultButtonSprites();
-        DisplayQuestion();
+        if(questions.Count>0)
+        {
+            SetButtonsState(true);
+            SetDefaultButtonSprites();
+            GetRandomQuestion();
+            DisplayQuestion();
+            progresBar.value++;
+            scoreKeeper.incerementQuestionSeen();
+        }
+    }
+
+    void GetRandomQuestion()
+    {
+        int index = Random.Range(0, questions.Count);
+        currentQuestion = questions[index]; // podpiêcie losowego pytania do obecnego które bedzie wyœwietlone
+        
+        questions.Remove(currentQuestion); //usuniêcie pytania które ju¿ by³o z listy pytañ w puli losowania
 
     }
 
     void DisplayQuestion()
     {
-        questionText.text = question.GetQuestion();
+        questionText.text = currentQuestion.GetQuestion();
 
         for (int i = 0; i < answerButtons.Length; i++)
         {
             TextMeshProUGUI buttonText = answerButtons[i].GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = question.GetAnswer(i);
+            buttonText.text = currentQuestion.GetAnswer(i);
         }
 
     }
